@@ -26,10 +26,6 @@ import (
 	"github.com/cloudflare/circl/kem/kyber/kyber1024"
 	"github.com/cloudflare/circl/kem/kyber/kyber512"
 	"github.com/cloudflare/circl/kem/kyber/kyber768"
-	"github.com/cloudflare/circl/kem/mlkem/mlkem1024"
-	"github.com/cloudflare/circl/kem/mlkem/mlkem512"
-	"github.com/cloudflare/circl/kem/mlkem/mlkem768"
-	"github.com/cloudflare/circl/kem/xwing"
 	"github.com/cloudflare/circl/kem/mceliece/mceliece348864"
 	"github.com/cloudflare/circl/kem/mceliece/mceliece348864f"
 	"github.com/cloudflare/circl/kem/mceliece/mceliece460896"
@@ -40,6 +36,10 @@ import (
 	"github.com/cloudflare/circl/kem/mceliece/mceliece6960119f"
 	"github.com/cloudflare/circl/kem/mceliece/mceliece8192128"
 	"github.com/cloudflare/circl/kem/mceliece/mceliece8192128f"
+	"github.com/cloudflare/circl/kem/mlkem/mlkem1024"
+	"github.com/cloudflare/circl/kem/mlkem/mlkem512"
+	"github.com/cloudflare/circl/kem/mlkem/mlkem768"
+	"github.com/cloudflare/circl/kem/xwing"
 )
 
 var allSchemes = [...]kem.Scheme{
